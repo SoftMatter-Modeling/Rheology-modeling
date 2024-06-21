@@ -1,0 +1,30 @@
+===================
+Outline of the Code 
+===================
+1. PSO.* : the particle swarm optimization code, will call the Rate_RDP_Cost.cpp code 
+2. Rate_RDP_Cost.*: calculate the strain rate field, call the RDP_history code, build the target the function
+3. RDP_history.*:  do the RDP model based on the given strain rate and temperature field
+
+=================
+Compile the code  
+=================
+Use the Make file to compile the code 
+
+==============================
+files required to run the code 
+==============================
+component.dat:  the parameters for the reduced ensemble 
+L10Fitted_Tempzf0.2.dat: the temperature field file 
+
+
+==============================================
+Possible update of the code in our tests later
+==============================================
+
+1. The function form for both the velocity and radius in the code of Rate_RDP_Cost.cpp
+2. minor change might be required for the formation of the target function based on force balance
+3. MPI version of PSO 
+
+ 
+
+
