@@ -1,0 +1,8 @@
+NumberChains  200
+BeadsPerChain 25
+dt            0.01
+StartStep     0
+EndStep       50
+StartOfDump   0
+DumpPeriod    10
+ERate         0.0189
